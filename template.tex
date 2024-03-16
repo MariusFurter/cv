@@ -1,0 +1,169 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+\moderncvcolor{burgundy}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+\recomputelengths
+%\setlength{\footskip}{136.00005pt}                 % depending on the amount of information in the footer, you need to change this value. comment this line out and set it to the size given in the warning
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvheadnamewidth}{10cm}            % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% font loading
+% for luatex and xetex, do not use inputenc and fontenc
+% see https://tex.stackexchange.com/a/496643
+\ifxetexorluatex
+  \usepackage{fontspec}
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Ligatures=TeX}
+  \setmainfont{Latin Modern Roman}
+  \setsansfont{Latin Modern Sans}
+  \setmonofont{Latin Modern Mono}
+  \setmathfont{Latin Modern Math} 
+\else
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage{lmodern}
+\fi
+
+% document language
+\usepackage[english]{babel}  % FIXME: using spanish breaks moderncv
+
+% personal data
+\name{Marius P}{Furter}
+\title{Curriculum Vitae}                               % optional, remove / comment the line if not wanted
+\born{6 November 1994}                                 % optional, remove / comment the line if not wanted
+\address{Rigistrasse 33}{8006 Zurich}{Switzerland}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
+\phone[mobile]{+41~79~274~11~57}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
+\email{marius.furter@math.uzh.ch}                               % optional, remove / comment the line if not wanted
+\homepage{www.mariusfurter.com}                         % optional, remove / comment the line if not wanted
+\social[orcid]{0000-0002-6776-0704}                  % optional, remove / comment the line if not wanted
+
+\photo[80pt][0pt]{portrait}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+
+% bibliography adjustments (only useful if you make citations in your resume, or print a list of publications using BibTeX)
+%   to show numerical labels in the bibliography (default is to show no labels)
+%\makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Education}
+\cventry{2006--2012}{Bilinguale (D/E) Maturität}{Freies Gymnasium Z\"urich}{}{}{}
+\cventry{2012--2017}{BSc Interdisciplinary Sciences Bio-Chem.}{ETH Zurich}{}{}{}
+\cventry{2017--2019}{MSc Interdisciplinary Sciences}{ETH Zurich}{}{}{Major: Biology and Chemistry \\ Master Thesis: \emph{Engineering Myoglobin Towards Halogenase Activity} \\ Supervisor: Prof.~Donald Hilvert}
+\cventry{2019--2022}{BSc Mathematics}{University of Zurich}{}{}{Single Major}
+\cventry{2022--present}{PhD Mathematics}{University of Zurich}{}{}{\emph{Compositional dynamic modeling of biosystems} \\ Advisor: Prof.~Alberto Cattaneo}
+
+\section{Teaching}
+\subsection{Lecture Courses}
+\cventry{Spring 2023}{MAT605 Logic and Foundations in Haskell}{University of Zurich}{}{}{I tought this course on logic and foundations for mathematics bachelor's students. The course used the functional programming language Haskell to implement concepts as they were introduced.}
+
+\subsection{Online Lecturing}
+\cventry{2020-present}{YouTube Chanel}{\href{https://www.youtube.com/@mariusfurter}{www.youtube.com/@mariusfurter}}{}{}{I have published over 80 math video lectures. The chanel has over 4'000 subscribers and receives 900 hours of watch-time per month. The chanel includes series on 
+\begin{itemize}
+  \item Topology
+  \item Category Theory
+  \item Mathematical Logic
+  \item Graph Theory
+\end{itemize}
+}
+
+\subsection{Student Seminars}
+\cventry{Fall 2022}{MAT746 Euclidean Geometry}{University of Zurich}{}{}{}
+\cventry{Spring 2024}{MAT676 Nonstandard Analysis}{University of Zurich}{}{}{}
+
+\subsection{Teaching Assistant}
+\cventry{Spring 2021}{Applied Compositional Thinking for Engineers}{ETH Zurich}{}{}{}
+\cventry{Fall 2021}{MAT101 Programming}{University of Zurich}{}{}{Held tutorial sessions and wrote exercise sheets on Python programming.}
+\cventry{Fall 2021}{MAT182 Analysis for the natural sciences}{University of Zurich}{}{}{Held tutorial sessions and corrected exercise sheets.}
+\cventry{Spring 2022}{MAT183 Probability and statistics for the natural sciences}{University of Zurich}{}{}{Supervised the course forum.}
+\cventry{Fall 2022}{MAT182 Analysis for the natural sciences}{University of Zurich}{}{}{Supervised the course forum.}
+\cventry{Fall 2023}{MAT701 Topology}{University of Zurich}{}{}{Held tutorial sessions, wrote exercise sheets, graded exercises and wrote the exam for the course.}
+
+
+\subsection{Volunteering}
+\cventry{2020--present}{Tutor at `incluso LERNstudio'}{Caritas Zurich}{}{}{Every week I help displaced persons who are persuing an apprenticeship with their homework.}
+
+
+\section{Languages}
+\cvitemwithcomment{English}{Native speaker}{}
+\cvitemwithcomment{German}{Native speaker}{}
+\cvitemwithcomment{French}{Swiss high-school level}{}
+
+
+\section{Computer skills}
+
+\setcvskillcolumns[][0.5][\widthof{``Active Years''}]
+
+%% Add a head of the skill matrix table with descriptions.
+\cvskillhead[-0.1em][Level][Skill][Active Years][Comment]
+
+
+\cvskillentry*{Programming}{3}{Julia}{2}{Probabilistic programming in Turing and Gen. ODE modeling with ModelingToolkit and Catalyst. Data science with DataFrames, JuliaStats and Makie.}
+\cvskillentry{}{3}{R}{6}{Working with tidyverse. Bayesian statistics with rstanarm. Web applications in shiny.}
+\cvskillentry{}{3}{Python}{5}{Numpy, Matplotlib, PyTorch.}
+\cvskillentry{}{2}{Haskell}{5}{}
+\cvskillentry{}{1}{Lean}{1}{Automated theorem proving.}
+
+\cvskillentry*{Web}{2}{HTML}{1}{}
+\cvskillentry{}{2}{JavaScript}{1}{}
+\cvskillentry{}{2}{React}{1}{Built an interactive network editor.}
+
+\cvskillentry*{Typesetting}{3}{\LaTeX}{6}{Used daily for most writing.}
+\cvskillentry{}{2}{Quarto}{1}{Built online book.}
+\cvskillentry{}{1}{InDesign}{1}{}
+
+\cvskillentry*{Media}{3}{Premier Pro}{5}{Edited over 100 hours of video footage.}
+\cvskillentry{}{2}{Illustrator}{5}{Created logos and thumbnails.}
+\cvskillentry{}{2}{Photoshop}{5}{}
+
+\cvskillentry*{Office}{4}{Microsoft Office}{20}{Word, Excel, PowerPoint.}
+\cvskillentry{}{3}{Apple}{4}{Pages, Keynote, Tables.}
+
+\vspace*{1.5em}
+
+\cvskilllegend*[1.5em][basic knowledge][intermediate knowledge with \\ some project experience][extensive project experience][deepened expert knowledge][expert \,/\, specialist]{}
+
+\section{Laboratory skills}
+\cvitem{}{I am well versed in standard laboratory techniques in the fields of Molecular Biology, Biochemistry and Organic Chemistry.}
+
+\section{Grants}
+\cventry{2022--2026}{PhD Excellence Program Scholarship}{Digital Society Initiative}{University of Zurich}{}{I was awarded the . Paricipation in the Excellence program involved taking 12ECTS of courses on }
+
+\section{Posters}
+\cventry{2023}{Probabilistic Signaling Networks}{Presented at \emph{Applied Category Theory} conference.}{}{}{Describes an approach for mechanistic modeling of cellular signalling networks in Markov categories.}
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%to redefine the heading string ("Publications"): 
+\renewcommand{\refname}{Publications}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+\end{document}
+
+
+%% end of file `template.tex'.
+
