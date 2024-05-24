@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex cv"] 1716552727 "cv.aux" "cv.bbl" "cv" 1716552729 0
+["bibtex cv"] 1716552727 "cv.aux" "cv.bbl" "cv" 1716552953 0
   "./publications.bib" 1710587552 479 ab63e3d7e8ae12abf7e6be876d63e4a9 ""
   "/usr/local/texlive/2023/texmf-dist/bibtex/bst/base/plain.bst" 1292289607 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "cv.aux" 1716552729 2120 114b384d69cdb89206be2cd52311fdc7 "pdflatex"
+  "cv.aux" 1716552953 2120 114b384d69cdb89206be2cd52311fdc7 "pdflatex"
   (generated)
   "cv.bbl"
   "cv.blg"
   (rewritten before read)
-["pdflatex"] 1716552727 "/Users/mariusfurter/Documents/repos/cv/cv.tex" "cv.pdf" "cv" 1716552729 0
-  "/Users/mariusfurter/Documents/repos/cv/cv.tex" 1716552726 10358 7c38989044c59aca077262ab1133cbdc ""
+["pdflatex"] 1716552952 "/Users/mariusfurter/Documents/repos/cv/cv.tex" "cv.pdf" "cv" 1716552953 0
+  "/Users/mariusfurter/Documents/repos/cv/cv.tex" 1716552951 10358 e4758be4b40d203a825a09d50248e79f ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc" 1651520503 2608 3139db8e1f9371a4f87c0715d17fa217 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc" 1622837620 3083 a707712f77b073b3833e4b1334a30e99 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1622837620 3042 0e2b14b9be7d01075a4c4591d5d1781b ""
@@ -220,10 +220,10 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1683974011 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1683973995 7883453 e334d029907c111e55319a8e401a8ca6 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "cv.aux" 1716552729 2120 114b384d69cdb89206be2cd52311fdc7 "pdflatex"
+  "cv.aux" 1716552953 2120 114b384d69cdb89206be2cd52311fdc7 "pdflatex"
   "cv.bbl" 1716552727 428 9f02f6a839de0c21b9f656e009ca3d25 "bibtex cv"
-  "cv.out" 1716552729 1578 8df141a3d1af237eadbd10948239579f "pdflatex"
-  "cv.tex" 1716552726 10358 7c38989044c59aca077262ab1133cbdc ""
+  "cv.out" 1716552953 1578 8df141a3d1af237eadbd10948239579f "pdflatex"
+  "cv.tex" 1716552951 10358 e4758be4b40d203a825a09d50248e79f ""
   "moderncvstyleclassic.sty" 1710580917 2306 f4d1f7aafe038489d856091f12d87b22 ""
   "portrait.jpg" 1710581745 5127333 5453def98c9fd6dacc76785a1b639a09 ""
   (generated)
