@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.13)  4 APR 2024 21:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.13)  24 MAY 2024 14:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -728,7 +728,7 @@ LaTeX Font Info:    Trying to load font information for U+fontawesomebrands1 on 
 LaTeX Font Info:    Font shape `U/fontawesomebrands1/solid/n' in size <10> not available
 (Font)              Font shape `U/fontawesomebrands1/regular/n' tried instead on input line 61.
 \makecvheadpicturebox=\box70
-<portrait.jpg, id=64, 591.1686pt x 700.7781pt>
+<portrait.jpg, id=68, 591.1686pt x 700.7781pt>
 File: portrait.jpg Graphic file (type jpg)
 <use portrait.jpg>
 Package pdftex.def Info: portrait.jpg  used on input line 61.
@@ -751,29 +751,29 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands1.enc} <./portrait.jpg>]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 115.
-
-Overfull \hbox (0.79999pt too wide) in paragraph at lines 139--139
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 120.
+ [2]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 144--144
 [][] 
  []
 
-[2] (./cv.bbl) [3{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}] (./cv.aux)
+(./cv.bbl) [3{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}] (./cv.aux)
 Package rerunfilecheck Info: File `cv.out' has not changed.
-(rerunfilecheck)             Checksum: 559FED4A3D284E6F8AB0EBDB15B90629;1435.
+(rerunfilecheck)             Checksum: 8DF141A3D1AF237EADBD10948239579F;1578.
  ) 
 Here is how much of TeX's memory you used:
- 27366 strings out of 476025
- 528404 string characters out of 5790017
- 1927388 words of memory out of 5000000
- 47224 multiletter control sequences out of 15000+600000
+ 27371 strings out of 476025
+ 528459 string characters out of 5790017
+ 1913388 words of memory out of 5000000
+ 47228 multiletter control sequences out of 15000+600000
  584034 words of font info for 119 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  129i,13n,122p,1038b,585s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsso17.pfb>
-Output written on cv.pdf (3 pages, 5374014 bytes).
+Output written on cv.pdf (3 pages, 5375026 bytes).
 PDF statistics:
- 162 PDF objects out of 1000 (max. 8388607)
- 128 compressed objects within 2 object streams
- 18 named destinations out of 1000 (max. 500000)
- 41082 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 167 PDF objects out of 1000 (max. 8388607)
+ 133 compressed objects within 2 object streams
+ 19 named destinations out of 1000 (max. 500000)
+ 41090 words of extra memory for PDF output out of 42996 (max. 10000000)
 
